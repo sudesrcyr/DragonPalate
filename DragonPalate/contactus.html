@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <title>Contact Us - Dragon Palate</title>
+</head>
+<div class="background-image"></div>
+<div class="bottom-image"></div> 
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo" style="width: 100px; height: auto;">
+            </div>
+            <ul>
+                <li><a href="homepage.html">Homepage</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="branch.html">Branches</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="order.html">Order </a></li>
+            </ul>
+        </nav>
+        <h1>DRAGON PALATE</h1>
+        
+    </header>
+    
+    <body>
+        <div class="contact-box">
+            <form>
+                <h3 style="text-align: center;">  Contact Form </h3>
+                <input type="text" class="input-field" id="nameInput" placeholder="Name" required>
+                <input type="text" class="input-field" id="surnameInput" placeholder="Surname" required>
+                <input type="text" class="input-field" id="emailInput" placeholder="Email" required>
+                <input type="text" class="input-field" id="phoneInput" placeholder="Phone Number" required>
+                <textarea type="text" class="input-field textarea-field" id="messageInput" placeholder="Your Message" required></textarea>
+                <button type="button" class="btn" onclick="submitForm()">Send Message</button>
+        </form>
+    </body>
+    <script src="contactus.js"></script>
+</body>
+</html>

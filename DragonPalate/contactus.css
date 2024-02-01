@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #eff3e2; 
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/menu2.png'); 
+    background-size: cover;
+    z-index: -1; 
+}
+
+.bottom-image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background-image: url('images/your-bottom-image.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1; 
+}
+
+header {
+    position: relative; 
+    background: rgba(224, 227, 227, 0.652);
+    color: #8c4444;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1; 
+}
+
+.logo img {
+    width: 50px; 
+    height: auto;
+}
+
+h1 {
+    color: #7c1818;
+    margin: 0; 
+    order: 1; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8c4444;
+    padding: 10px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    order: 3; 
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color: #380e0e;
+    font-family: sans-serif;
+}
+.contact-box
+{
+    width:500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #000000 ;
+    top:62.5%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+form{
+    margin:35px;
+}
+.input-field{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.5px solid #000000;
+    border-radius: 14px;
+    outline: none;
+}
+.textarea-field
+{
+    height:100px;
+    padding-top:10px;
+    resize:none;
+    
+}
+.btn
+{
+    border-radius: 20px;
+    color:#fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #b82731;
+    font-size: 12px;
+    border:none;
+    cursor:pointer;
+}

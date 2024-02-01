@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <title>Dragon Palate</title>
+
+</head>
+<body>
+    
+    <div class="background-image"></div>
+    <div class="bottom-image"></div> 
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo" style="width: 100px; height: auto;">
+            </div>
+            <ul>
+                <li><a href="homepage.html">Homepage</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="branch.html">Branches</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a href="order.html">Order </a></li>
+            </ul>
+        </nav>
+        <h1>DRAGON PALATE</h1>
+    </header>
+      <div class="order-summary">
+        <h2>Order Details</h2>
+        <table class="order-table">
+        
+            <tbody class="order-items"></tbody>
+        </table>
+        <p class="order-total">Total Amount: $0.00</p>
+    </div>
+
+    <div class="main">
+        <div class="order-form">
+            <h2>Order Information</h2>
+            <form id="orderForm">
+                <label for="fullName">Name - Surname:</label>
+                <input type="text" id="fullName" name="fullName" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="E-mail">E-mail:</label>
+                <input type="text" id="E-mail" name="E-mail" required>
+
+                <label for="Card">Card No:</label>
+                <input type="tel" id="Card" name="Card" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <button type="submit" id="completeOrderButton">Complete Order</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="order.js"></script>
+</body>
+</html>
